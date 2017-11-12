@@ -21,6 +21,14 @@ div {
   flex-wrap: wrap;
 }
 
+h2, h3, h4 {
+  padding: 10px;
+  margin: 0px;
+  display: block;
+}
+
+
+/**HEADER**/
 header {
   position: fixed;
   width: 100%;
@@ -45,6 +53,7 @@ nav {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+  text-decoration: underline;
 }
 
 .main {
@@ -54,6 +63,8 @@ nav span {
   margin: auto;
 }
 
+
+/**MISSION**/
 #mission {
   background-image: url(img-mission-background.jpg);
   height: 700px;
@@ -63,16 +74,13 @@ nav span {
 
 .mission-copy {
   width: 100%;
-  margin: auto;
+  margin: 250px auto;
   background-color: black;
+
 }
 
-h2, h3, h4 {
-  padding: 10px;
-  margin: 0px;
-  display: block;
-}
 
+/**TEA-OF-THE-MONTH**/
 .tea {
   width: 1000px;
   height: 700px;
@@ -92,6 +100,8 @@ h2, h3, h4 {
   padding: 10px;
 }
 
+
+/**lOCATIONS**/
 .locations {
   background-image: url(img-locations-background.jpg);
   height: 500px;
@@ -105,12 +115,17 @@ h2, h3, h4 {
   margin: 15px 20px;
   width: 300px;
   padding-top: 15px;
+  opacity: 1;
 }
 
+
+/**CONTACT**/
 .contact {
   height: 200px;
 }
 
+
+/**FOOTER**/
 footer {
   text-align: left;
   padding-left: 20px;
